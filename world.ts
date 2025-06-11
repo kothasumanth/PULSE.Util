@@ -9,6 +9,7 @@ export class CustomWorld extends World {
   browser: Browser | null = null;
   page: Page | null = null;
   petId: number | null = null;
+  nexusPulsePage?: any;
   /**
    * scenarioContext is a generic object for storing scenario-specific data.
    * Use this to share data between steps in a scenario (e.g., invoice numbers, workflow state, etc).
